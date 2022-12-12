@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');*/
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +26,9 @@ footer{
     text-transform: uppercase;
     padding-top: 30px;
     margin-top: auto;
+    position: absolute; 
+    width:100%;
+    bottom: 0px; /*this is the trick to make it stick to the bottom */
 }
 
 footer li{
